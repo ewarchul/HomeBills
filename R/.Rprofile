@@ -1,6 +1,0 @@
-source("renv/activate.R")
-library(tidyverse)
-library(magrittr)
-library(jsonlite)
-library(lubridate)
-library(zeallot)
