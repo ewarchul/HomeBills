@@ -1,0 +1,22 @@
+<div class = "tariff">
+    <h1> Cennik </h1>
+</div>
+
+<table class = "table table -striped">
+    <thead>
+        <tr>
+          <th scope="col">Zasób</th>
+          <th scope="col">Cena [PLN]</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let resource of resources">
+               <td>{{ resource.name }}</td>
+               <td>{{ resource.price }}</td>
+            </tr> 
+        </tbody>
+</table>
+
+<a (click) = "back()">
+    <img src = "../../assets/arrow-left.png">
+</a>
